@@ -1,0 +1,17 @@
+<svg width="860" height="110" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gBox" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#2563eb" stop-opacity="0.12"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="860" height="110" rx="12" fill="url(#gBox)" stroke="#7c3aed" stroke-opacity="0.3" stroke-width="1"/>
+
+  <!-- Shield icon area -->
+  <text x="28" y="66" font-size="42" font-family="'Segoe UI',system-ui,sans-serif">🛡️</text>
+
+  <!-- Text -->
+  <text x="88" y="36" font-family="'Segoe UI',system-ui,sans-serif" font-size="15" font-weight="700" fill="#ffffff">Mathematical Exit Guarantee</text>
+  <text x="88" y="58" font-family="'Segoe UI',system-ui,sans-serif" font-size="12.5" fill="#8b949e">The creator's locked SOL remains in the vault for the full lifecycle of the bonding curve. If the token never</text>
+  <text x="88" y="76" font-family="'Segoe UI',system-ui,sans-serif" font-size="12.5" fill="#8b949e">migrates, the bonding curve stays open and buyers can always sell back. No admin can override this.</text>
+</svg>
