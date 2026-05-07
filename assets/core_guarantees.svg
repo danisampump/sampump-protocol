@@ -1,0 +1,28 @@
+<svg width="860" height="180" xmlns="http://www.w3.org/2000/svg">
+  <!-- Card 1 - Anti-Rug Vault (purple) -->
+  <rect x="0" y="0" width="274" height="180" rx="10" fill="rgba(124,58,237,0.07)" stroke="#7c3aed" stroke-opacity="0.35" stroke-width="1"/>
+  <text x="137" y="52" font-size="34" font-family="'Segoe UI',system-ui,sans-serif" text-anchor="middle">🛡️</text>
+  <text x="137" y="82" font-family="'Segoe UI',system-ui,sans-serif" font-size="13.5" font-weight="700" fill="#a78bfa" text-anchor="middle">Anti-Rug Vault</text>
+  <text x="137" y="104" font-family="'Segoe UI',system-ui,sans-serif" font-size="11.5" fill="#8b949e" text-anchor="middle">Creator SOL is locked on-chain</text>
+  <text x="137" y="120" font-family="'Segoe UI',system-ui,sans-serif" font-size="11.5" fill="#8b949e" text-anchor="middle">at launch. Buyers always have</text>
+  <text x="137" y="136" font-family="'Segoe UI',system-ui,sans-serif" font-size="11.5" fill="#8b949e" text-anchor="middle">a guaranteed exit — enforced</text>
+  <text x="137" y="152" font-family="'Segoe UI',system-ui,sans-serif" font-size="11.5" fill="#8b949e" text-anchor="middle">by the smart contract.</text>
+
+  <!-- Card 2 - Immutable Program (blue) -->
+  <rect x="293" y="0" width="274" height="180" rx="10" fill="rgba(37,99,235,0.07)" stroke="#2563eb" stroke-opacity="0.35" stroke-width="1"/>
+  <text x="430" y="52" font-size="34" font-family="'Segoe UI',system-ui,sans-serif" text-anchor="middle">🔒</text>
+  <text x="430" y="82" font-family="'Segoe UI',system-ui,sans-serif" font-size="13.5" font-weight="700" fill="#60a5fa" text-anchor="middle">Immutable Program</text>
+  <text x="430" y="104" font-family="'Segoe UI',system-ui,sans-serif" font-size="11.5" fill="#8b949e" text-anchor="middle">No upgrade authority.</text>
+  <text x="430" y="120" font-family="'Segoe UI',system-ui,sans-serif" font-size="11.5" fill="#8b949e" text-anchor="middle">No admin keys. The deployed</text>
+  <text x="430" y="136" font-family="'Segoe UI',system-ui,sans-serif" font-size="11.5" fill="#8b949e" text-anchor="middle">program cannot be changed</text>
+  <text x="430" y="152" font-family="'Segoe UI',system-ui,sans-serif" font-size="11.5" fill="#8b949e" text-anchor="middle">by anyone — including us.</text>
+
+  <!-- Card 3 - LP Burned (green) -->
+  <rect x="586" y="0" width="274" height="180" rx="10" fill="rgba(16,185,129,0.07)" stroke="#10b981" stroke-opacity="0.35" stroke-width="1"/>
+  <text x="723" y="52" font-size="34" font-family="'Segoe UI',system-ui,sans-serif" text-anchor="middle">🔥</text>
+  <text x="723" y="82" font-family="'Segoe UI',system-ui,sans-serif" font-size="13.5" font-weight="700" fill="#34d399" text-anchor="middle">LP Burned on Migration</text>
+  <text x="723" y="104" font-family="'Segoe UI',system-ui,sans-serif" font-size="11.5" fill="#8b949e" text-anchor="middle">When the token migrates to</text>
+  <text x="723" y="120" font-family="'Segoe UI',system-ui,sans-serif" font-size="11.5" fill="#8b949e" text-anchor="middle">Raydium, all LP tokens are</text>
+  <text x="723" y="136" font-family="'Segoe UI',system-ui,sans-serif" font-size="11.5" fill="#8b949e" text-anchor="middle">burned automatically.</text>
+  <text x="723" y="152" font-family="'Segoe UI',system-ui,sans-serif" font-size="11.5" fill="#8b949e" text-anchor="middle">Liquidity permanently locked.</text>
+</svg>
