@@ -1,0 +1,28 @@
+<svg width="860" height="220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgDark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left panel - Problem -->
+  <rect x="0" y="0" width="420" height="220" rx="10" fill="rgba(248,113,113,0.06)" stroke="#f87171" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="20" y="28" font-family="'Segoe UI',system-ui,sans-serif" font-size="11" font-weight="700" fill="#f87171" letter-spacing="1.5" text-transform="uppercase">THE PROBLEM</text>
+  <line x1="20" y1="36" x2="400" y2="36" stroke="#f87171" stroke-opacity="0.2" stroke-width="1"/>
+  <text x="20" y="62"  font-family="'Segoe UI',system-ui,sans-serif" font-size="13" fill="#8b949e"><tspan fill="#f87171" font-weight="700">✗ </tspan>Creators drain liquidity after launch</text>
+  <text x="20" y="86"  font-family="'Segoe UI',system-ui,sans-serif" font-size="13" fill="#8b949e"><tspan fill="#f87171" font-weight="700">✗ </tspan>No accountability enforced on-chain</text>
+  <text x="20" y="110" font-family="'Segoe UI',system-ui,sans-serif" font-size="13" fill="#8b949e"><tspan fill="#f87171" font-weight="700">✗ </tspan>Buyers have zero exit guarantee</text>
+  <text x="20" y="134" font-family="'Segoe UI',system-ui,sans-serif" font-size="13" fill="#8b949e"><tspan fill="#f87171" font-weight="700">✗ </tspan>Rug pulls are trivially easy</text>
+  <text x="20" y="158" font-family="'Segoe UI',system-ui,sans-serif" font-size="13" fill="#8b949e"><tspan fill="#f87171" font-weight="700">✗ </tspan>Trust required — and often broken</text>
+
+  <!-- Right panel - Solution -->
+  <rect x="440" y="0" width="420" height="220" rx="10" fill="rgba(52,211,153,0.06)" stroke="#34d399" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="460" y="28" font-family="'Segoe UI',system-ui,sans-serif" font-size="11" font-weight="700" fill="#34d399" letter-spacing="1.5">THE SAMPUMP SOLUTION</text>
+  <line x1="460" y1="36" x2="840" y2="36" stroke="#34d399" stroke-opacity="0.2" stroke-width="1"/>
+  <text x="460" y="62"  font-family="'Segoe UI',system-ui,sans-serif" font-size="13" fill="#8b949e"><tspan fill="#34d399" font-weight="700">✓ </tspan>Creator SOL locked in vault at creation</text>
+  <text x="460" y="86"  font-family="'Segoe UI',system-ui,sans-serif" font-size="13" fill="#8b949e"><tspan fill="#34d399" font-weight="700">✓ </tspan>Accountability enforced by smart contract</text>
+  <text x="460" y="110" font-family="'Segoe UI',system-ui,sans-serif" font-size="13" fill="#8b949e"><tspan fill="#34d399" font-weight="700">✓ </tspan>Exit always available via bonding curve</text>
+  <text x="460" y="134" font-family="'Segoe UI',system-ui,sans-serif" font-size="13" fill="#8b949e"><tspan fill="#34d399" font-weight="700">✓ </tspan>Rug pulls are structurally impossible</text>
+  <text x="460" y="158" font-family="'Segoe UI',system-ui,sans-serif" font-size="13" fill="#8b949e"><tspan fill="#34d399" font-weight="700">✓ </tspan>Zero trust required — verify on-chain</text>
+</svg>
