@@ -1,17 +1,20 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/danisampump/sampump-protocol/main/assets/logo.png" alt="SamPump" height="90" />
-  <h1>SamPump Protocol</h1>
-  <p><strong>The first token launchpad on Solana where rug pulls are mathematically impossible.</strong><br/>
-  <a href="https://solscan.io/account/2q22G1KQBhzzYwE3bbNeJxoqGwNMR8ecZTS4HNPcyHhu">verify on-chain ↗</a></p>
 
-  [![Website](https://img.shields.io/badge/website-sampump.com-7c3aed?style=flat-square)](https://sampump.com)
-  [![Docs](https://img.shields.io/badge/docs-docs.sampump.com-2563eb?style=flat-square)](https://docs.sampump.com)
-  [![Discord](https://img.shields.io/badge/discord-join-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/AznjbUWb)
-  [![Twitter](https://img.shields.io/badge/twitter-@SamPumpofficial-1d9bf0?style=flat-square&logo=x)](https://x.com/SamPumpofficial)
-  [![Solana](https://img.shields.io/badge/solana-mainnet-9945FF?style=flat-square)](https://solana.com)
-  [![Built with Anchor](https://img.shields.io/badge/built_with-anchor-FC822E?style=flat-square)](https://anchor-lang.com)
-  [![License: MIT](https://img.shields.io/badge/license-MIT-22c55e?style=flat-square)](LICENSE)
-  [![Version](https://img.shields.io/badge/version-v1.0.0_May_2026-gray?style=flat-square)](https://github.com/danisampump/sampump-protocol)
+<img src="https://raw.githubusercontent.com/danisampump/sampump-protocol/main/assets/header_banner.svg" alt="SamPump Protocol" width="860" />
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/danisampump/sampump-protocol/main/assets/logo.png" alt="SamPump" height="70" />
+
+[![Website](https://img.shields.io/badge/website-sampump.com-7c3aed?style=flat-square)](https://sampump.com)
+[![Docs](https://img.shields.io/badge/docs-docs.sampump.com-2563eb?style=flat-square)](https://docs.sampump.com)
+[![Discord](https://img.shields.io/badge/discord-join-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/AznjbUWb)
+[![Twitter](https://img.shields.io/badge/twitter-@SamPumpofficial-1d9bf0?style=flat-square&logo=x)](https://x.com/SamPumpofficial)
+[![Solana](https://img.shields.io/badge/solana-mainnet-9945FF?style=flat-square)](https://solana.com)
+[![Built with Anchor](https://img.shields.io/badge/built_with-anchor-FC822E?style=flat-square)](https://anchor-lang.com)
+[![License: MIT](https://img.shields.io/badge/license-MIT-22c55e?style=flat-square)](LICENSE)
+[![Version](https://img.shields.io/badge/version-v1.0.0_May_2026-gray?style=flat-square)](https://github.com/danisampump/sampump-protocol)
+
 </div>
 
 ---
@@ -22,30 +25,9 @@ SamPump is a permissionless token launchpad built on Solana. Every token launche
 
 There are no admin keys. No freeze authority. No upgradeable programs. The math and the code are the only authority.
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### The Problem
-- ✗ Creators drain liquidity after launch
-- ✗ No accountability enforced on-chain
-- ✗ Buyers have zero exit guarantee
-- ✗ Rug pulls are trivially easy
-- ✗ Trust required — and often broken
-
-</td>
-<td width="50%" valign="top">
-
-### The SamPump Solution
-- ✓ Creator SOL locked in vault at creation
-- ✓ Accountability enforced by smart contract
-- ✓ Exit always available via bonding curve
-- ✓ Rug pulls are structurally impossible
-- ✓ Zero trust required — verify on-chain
-
-</td>
-</tr>
-</table>
+<div align="center">
+<img src="https://raw.githubusercontent.com/danisampump/sampump-protocol/main/assets/problem_solution.svg" alt="Problem vs Solution" width="860" />
+</div>
 
 ---
 
@@ -97,9 +79,9 @@ Where:
 
 ### 3. The Anti-Rug Guarantee
 
-> 🛡️ **Mathematical Exit Guarantee**
->
-> The creator's locked SOL remains in the vault for the full lifecycle of the bonding curve. If the token never migrates, the bonding curve remains open and buyers can always sell back through it. The vault ensures protocol solvency. No admin can override this — the program enforces it at the instruction level.
+<div align="center">
+<img src="https://raw.githubusercontent.com/danisampump/sampump-protocol/main/assets/guarantee.svg" alt="Anti-Rug Guarantee" width="860" />
+</div>
 
 ### 4. Presale Phase (Optional)
 
@@ -132,28 +114,9 @@ When `realSolReserves` reaches the migration threshold, the protocol automatical
 
 ## Core Guarantees
 
-<table>
-<tr>
-<td width="33%" align="center" valign="top">
-
-### 🛡️ Anti-Rug Vault
-Creator SOL is locked on-chain at launch. Buyers always have a guaranteed exit — enforced by the smart contract, not by trust.
-
-</td>
-<td width="33%" align="center" valign="top">
-
-### 🔒 Immutable Program
-No upgrade authority. No admin keys. The deployed program cannot be changed by anyone — including the team.
-
-</td>
-<td width="33%" align="center" valign="top">
-
-### 🔥 LP Burned on Migration
-When the token migrates to Raydium, all LP tokens are burned automatically. Liquidity is permanently locked.
-
-</td>
-</tr>
-</table>
+<div align="center">
+<img src="https://raw.githubusercontent.com/danisampump/sampump-protocol/main/assets/core_guarantees.svg" alt="Core Guarantees" width="860" />
+</div>
 
 ---
 
@@ -167,7 +130,7 @@ When the token migrates to Raydium, all LP tokens are burned automatically. Liqu
            │                  │              │
 ┌──────────▼──────────┐  ┌────▼────────────┐  ┌──────────▼──────────┐
 │   BondingCurve PDA  │  │ VaultAuthority  │  │  PresaleConfig PDA  │
-│ [bonding_curve,mint]│  │  PDA            │  │   [presale, mint]   │
+│ [bonding_curve,mint]│  │     PDA         │  │   [presale, mint]   │
 │ reserves, price,    │  │ [vault_authority│  │ fixed price, max    │
 │ migration state     │  │ holds creator   │  │ tokens, sold count  │
 │                     │  │ SOL (locked)    │  │                     │
@@ -238,9 +201,9 @@ Full technical documentation — bonding curve mathematics, vault mechanics, pre
 
 <div align="center">
 
-| | | | | |
-|:---:|:---:|:---:|:---:|:---:|
-| [🚀 **Launch App**](https://sampump.com)<br/>sampump.com | [📖 **Docs**](https://docs.sampump.com)<br/>docs.sampump.com | [💬 **Discord**](https://discord.gg/AznjbUWb)<br/>discord.gg/AznjbUWb | [⬡ **On-Chain**](https://solscan.io/account/2q22G1KQBhzzYwE3bbNeJxoqGwNMR8ecZTS4HNPcyHhu)<br/>Solscan | [𝕏 **Twitter**](https://x.com/SamPumpofficial)<br/>@SamPumpofficial |
+| | | | | | |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| [🚀 **Launch App**](https://sampump.com)<br/>sampump.com | [📖 **Docs**](https://docs.sampump.com)<br/>docs.sampump.com | [💬 **Discord**](https://discord.gg/AznjbUWb)<br/>discord.gg/AznjbUWb | [⬡ **On-Chain**](https://solscan.io/account/2q22G1KQBhzzYwE3bbNeJxoqGwNMR8ecZTS4HNPcyHhu)<br/>Solscan | [𝕏 **Twitter**](https://x.com/SamPumpofficial)<br/>@SamPumpofficial | [✉️ **Contact**](mailto:info@sampump.com)<br/>info@sampump.com |
 
 </div>
 
